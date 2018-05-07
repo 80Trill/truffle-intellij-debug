@@ -43,6 +43,7 @@ There is a directory located which contains the scripts used to run the debugger
 ### Applying the Settings
 
 Inside of edit configurations, you will need to create a new run/debug configuration.
+
 ![alt text](/Screenshots/EditConfig.png?raw=true)
 ![alt text](/Screenshots/EditRunConfig.png?raw=true)
 ```
