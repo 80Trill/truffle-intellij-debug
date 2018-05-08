@@ -50,8 +50,6 @@ Inside of edit configurations, you will need to create a new run/debug configura
 Ensure that Command -> run, and Scripts -> test
 ```
 
-Next is setting up an external tool. 
-
 ![alt text](/Screenshots/RunExternalTool.png?raw=true)
 
 ```
@@ -84,11 +82,13 @@ Inside of the "test/TestIntellijDebug.js" file, you can see the following breakp
 
 For the foreseeable future, the debugger only allows you to monitor variables inside of the Javascript test files. It cannot display the variables being stored in the .Sol files. 
 
+### Acknowledgements
 
+Much of this example is based off of the OpenZeppelin Framework.
 
 ## Authors
 
-Riley@80trill.com,
-Ryan@80trill.com
+Riley@80trill.com
+
 
 https://80trill.com/
