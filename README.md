@@ -50,7 +50,7 @@ Inside of edit configurations, you will need to create a new run/debug configura
 Ensure that Command -> run, and Scripts -> test
 ```
 
-Next you need to setup an external tool. 
+Next is setting up an external tool. 
 
 ![alt text](/Screenshots/RunExternalTool.png?raw=true)
 
@@ -82,7 +82,7 @@ Inside of the "test/TestIntellijDebug.js" file, you can see the following breakp
 
 ### Limitations
 
-For the foreseeable future, the debugger only allows you to monitor variables inside of the Javascript test files. It cannot query into the variables being stored in the Solidity Contract. 
+For the foreseeable future, the debugger only allows you to monitor variables inside of the Javascript test files. It cannot display the variables being stored in the .Sol files. 
 
 
 
