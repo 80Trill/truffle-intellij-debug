@@ -68,8 +68,6 @@ Now you should be able to **run** the project scripts and the following should b
 
 
 
-### Example
-
 Inside of the "test/TestIntellijDebug.js" file, you can see the following breakpoints and examine how it works. 
 
 ![alt text](/Screenshots/DebugResult.png?raw=true)
