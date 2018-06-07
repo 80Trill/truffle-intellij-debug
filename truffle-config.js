@@ -32,7 +32,6 @@ module.exports = {
             port: 8545,
             network_id: '*', // eslint-disable-line camelcase
             gasPrice:0x01
-
         },
         ropsten: {
             provider: ropstenProvider,
@@ -49,8 +48,6 @@ module.exports = {
             port: 8545,
             network_id: '*', // eslint-disable-line camelcase
             gasPrice:0x01
-
-
         },
         ganache: {
             host: 'localhost',
