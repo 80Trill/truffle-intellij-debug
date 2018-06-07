@@ -16,10 +16,11 @@ contract('TestIntellijDebug', function(accounts) {
         await instance.addValue(c);
 
         let listOfValues = await instance.getListOfValues.call();
+        let ownerActual = await instance.owner();
 
-        assert(owner);
-        assert.equal(listOfValues[0].c[0], a, 'The value in listOfValues is not stored properly');
-        assert.equal(listOfValues[1].c[0], b, 'The value in listOfValues is not stored properly');
-        assert.equal(listOfValues[2].c[0], c, 'The value in listOfValues is not stored properly');
+        assert.equal(owner, ownerActual, "The owners address was not stored properly");
+        assert.equal(listOfValues[0], a, 'The value in listOfValues is not stored properly');
+        assert.equal(listOfValues[1], b, 'The value in listOfValues is not stored properly');
+        assert.equal(listOfValues[2], c, 'The value in listOfValues is not stored properly');
     });
 });
