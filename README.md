@@ -1,13 +1,17 @@
 # Using Intellij Debugger for Truffle Testsuites
 
-Currently when it comes to debugging smart contracts in Solidity, developers must use a plethora of tools to test and debug their code. Unfortunately this is less than desirable, as it can cause unneccesary friction and inefficienncy in ones workflow. By utilizing some of the configurations inside of Intellij, we have found a way to debug Truffle Javascript test suites inside of the IDE. This will allow you to utilize the built in command line, instead of repeatedly switching back and fourth between the two. As you can see inside of this example project, this will prove to be invaluable when it comes to preliminary testing of any smart contract.
+Currently when it comes to debugging smart contracts in Solidity, developers must use a plethora of tools to test and debug their code. Unfortunately this is less than desirable, as it can cause unneccesary friction and inefficiency in your workflow. By utilizing some of the configurations inside of Intellij, we have found a way to debug Truffle Javascript test suites inside of the IDE. 
+
+This will allow you to utilize the built in debugger. 
+
+As you can see inside of this example project, this will prove to be invaluable when it comes to testing smart contracts.
 
 
 
 
 ## Getting Started
 
-The following instructions will allow you to run a small test suite for demonstration purposes. There is certainly room for improving on the setup, but for now this will open the floor for improving the development process for Solidity Smart Contracts.
+The following instructions will allow you to run a small test suite for demonstration purposes. There is certainly room for improving on the setup, but for now this will open the door to improving the development process for Solidity Smart Contracts.
 
 
 
@@ -30,7 +34,7 @@ Navigate to the project root and install the dependencies via NPM.
 npm install
 ```
 
-There is a directory located which contains the scripts used to run the debugger. As well as a modified "truffle-config.js"
+Here is the directory which contains the scripts used to run the debugger. As well as a modified "truffle-config.js"
 
 ```
 "truffle-intellij-debug/scripts/setup.sh"
@@ -53,7 +57,7 @@ Ensure that Command -> run, and Scripts -> test
 ![alt text](/Screenshots/RunExternalTool.png?raw=true)
 
 ```
-Ensure that external tool "start testrpc" has Program -> Setup.sh, and Working Directory -> Scripts 
+Ensure that external tool "start testrpc" has Program -> Setup.sh, and Working Directory -> truffle-intellij-debug 
 (The relative paths where they are saved on your computer)
 ```
 
@@ -82,7 +86,7 @@ For the foreseeable future, the debugger only allows you to monitor variables in
 
 ### Acknowledgements
 
-Much of this example is based off of the OpenZeppelin Framework.
+Part of this example uses pieces of OpenZeppelin code.
 
 ## Authors
 
